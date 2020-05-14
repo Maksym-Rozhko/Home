@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url('./images/background-body.png');
+    background-size: cover;
+}
+
+.header {
+    background-image: url('./images/background-section.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding-top: 35px;
+    padding-bottom: 260px;
+}
+
+/* Обертка контента */
+.wrapper {
+    width: 1165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-inner {
+    margin-bottom: 255px;
+}
+
+.logo {
+    display: inline-block;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+/* Навигация по странце */
+.navigation {
+    display: inline-block;
+    margin-left: 505px;
+    font-size: 0;
+}
+
+/* Стили для сылок навигации */
+.navigation-link {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    margin-right: 33px;
+}
+
+.navigation-link:last-child {
+    margin-right: 0;
+}
+
+/* Вступление */
+.intro {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto 50px auto;
+    color: #ffffff;
+}
+
+/* Стили для вступления заголовка */
+.intro-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Стили для вступления текста */
+.intro-text {
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-link {
+    text-align: center;
+} 
+
+/* Стили для кнопки */
+.link {
+    display: inline-block;
+    padding: 16px 32px;
+    border: 2px solid #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.section {
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+
+.section-header {
+    margin-bottom: 72px;
+}
+
+/* Стили для заголовка секции сервисы */
+.section-title {
+    text-align: center;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Стили для формы  */
+.section-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 27px auto;
+    background-color: #555555;
+}
+
+/* CСтили для текста секции сервисы */
+.section-text {
+    text-align: center;
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Стили для блока СЕРВИСЫ */
+.block {
+    display: inline-block;
+}
+
+/* Стили общие обертки блока-итемов */
+.block-item {
+    text-align: center;
+    width: 350px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/* Стили для иконки 'А' в сервисах */
+.block-img {
+    padding: 24px 20px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 auto 27px auto;
+}
+
+/* Цвет для фона 1-й иконки в сервисах */
+.A {
+    background-color: #c0301c;
+}
+
+/* Отступы для 2-й иконки в сервисах */
+.code {
+    padding: 22px 16px;
+}
+
+/* Отступы для 3-й иконви в сервисах */
+.support {
+    padding: 18px 18px;
+}
+
+/* Стили для 'Clean Typography' */
+.block-title {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Стили для 'Lorem ipsu...' */
+.block-text {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+/* Стили для секции ABOUT US */
+.about-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+/* Стили для лев. и прав. контента */
+.section-content {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    column-count: 2;
+    column-gap: 30px;
+    margin: 0 30px 70px 30px;
+}
+
+.slider {
+    position: relative;
+    text-align: center;
+    font-size: 0;
+}
+
+/* Стили для итемов слайдера */
+.item {
+    display: inline-block;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+/* Стили для обертки аватарки */
+.item-img-wrapper {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Стили для аватарки */
+.item-img {
+    display: block;
+    width: 100%;
+}
+
+.item-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    padding-top: 200px; 
+    display: none;
+}
+
+/* .item:hover {
+    box-shadow: 10px 10px 10px 0px #808080;
+} */
+
+.item:hover .item-effect {
+    display: block;
+}
+
+/* Стили для  соц.сетей */
+.social {
+    display: inline-block;
+
+}
+
+.soc-fb {
+    background-image: url('./images/Facebook_Logo.png');
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 16px;
+}
+
+.soc-tw {
+    background-image: url('./images/Twitter_Logo.png');
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 14px;
+}
+
+.soc-gp {
+    background-image: url('./images/Google_Plus_Logo.png');
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 16px;
+}
+
+.soc-ld {
+    background-image: url('./images/Linkedin_Logo.png');
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+.item-social {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .5s;
+    padding: 5px;
+    vertical-align: bottom;
+    background-position: center;
+}
+
+.item-social:hover {
+    background-color: #c0301c;  
+} 
+
+/* Стили для имен карточек */
+.item-name {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Стили для должности */
+.item-position {
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Стили для слайдер-кнопок */
+.btn {
+    position: absolute;
+    border: none;
+    bottom: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 38px; 
+}
+
+.btn-prev {
+    left: 12px;
+    opacity: .2;
+    background-color: #555555;
+    background-image: url('./images/left-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-next {
+    right: -10px;
+    background-color: #c0301c; 
+    background-image: url('./images/right-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+
